@@ -1,7 +1,7 @@
 # 🪄 Obliviate (ECCV 2026)
 
 <p align="left-aligned">
-  <a href="https://arxiv.org/abs/TBD"><img src="https://img.shields.io/badge/Paper-arXiv-E31B23?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv"></a>
+  <a href="https://arxiv.org/abs/2606.28643"><img src="https://img.shields.io/badge/Paper-arXiv-E31B23?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
 </p>
 
