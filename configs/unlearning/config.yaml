@@ -1,0 +1,42 @@
+model:
+  model_type: "liquid"  # liquid | emu3_gen | janus
+  checkpoint: null  # path to PEFT adapter checkpoint, or null for base model
+  device: "cuda"
+  image_size: 512  # liquid: 512 | emu3_gen: 720 | janus: 384
+
+project:
+  exp_path: "default"  # experiment group name for checkpoints and outputs
+  checkpoints_folder: "checkpoints"
+  data_folder: "data"  # root for eval benchmarks, and training image cache
+  output_folder: "outputs"
+
+data:
+  target: "nudity"
+
+training:
+  seed: 42
+  eta: 2.0  # negation strength; higher = stronger concept erasure
+  max_steps: 1000
+  batch_size: 1
+  learning_rate: 0.0001
+  gradient_accumulation_steps: 1
+  max_grad_norm: 0.5
+  warmup_ratio: 0.01
+  scheduler_name: "linear"  # linear | cosine | constant | ...
+  device: "cuda"
+
+lora:
+  lora_rank: 32
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules: null
+
+logging:
+  use_wandb: false  # set true and configure wandb_entity to enable W&B
+  wandb_entity: null  # your W&B team or username (optional if omitted)
+  wandb_project: "obliviate"
+  steps_between_validation: 100  # 0 to disable periodic validation image logging
+
+experiment:
+  steps_between_checkpoints: 100  # 0 or null to disable intermediate checkpoints
+  run_name_template: "<model_config.model_type>_<target>_eta<eta>_<timestamp>"
