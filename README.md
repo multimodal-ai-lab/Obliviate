@@ -3,6 +3,7 @@
 <p align="left-aligned">
   <a href="https://arxiv.org/abs/2606.28643"><img src="https://img.shields.io/badge/Paper-arXiv-E31B23?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
+<a href="https://jonasgrebe.github.io/research/projects/obliviate/"><img src="https://img.shields.io/badge/Project-Page-B31F34?style=for-the-badge" alt="MIT License"></a>
 </p>
 
 <p align="center">
