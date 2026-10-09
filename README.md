@@ -221,13 +221,12 @@ If you find this work useful, please cite:
 
 
 ```bibtex
-@misc{shakibania2026obliviateerasingconceptsautoregressive,
-      title={Obliviate: Erasing Concepts from Autoregressive Image Generation Models}, 
-      author={Hossein Shakibania and Jonas Henry Grebe and Tobias Braun and Ege Aktemur and Saleh Aslani and Mehmet Görkem Yiğit and Marcus Rohrbach},
-      year={2026},
-      eprint={2606.28643},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2606.28643}, 
+@inproceedings{shakibania2026obliviate,
+  title={Obliviate: Erasing Concepts from Autoregressive Image Generation Models},
+  author={Shakibania, Hossein and Grebe, Jonas Henry and Braun, Tobias and Aktemur, Ege and Aslani, Saleh and Yi{\u{g}}it, Mehmet G and Rohrbach, Marcus},
+  booktitle={European Conference on Computer Vision},
+  pages={665--683},
+  year={2026},
+  organization={Springer}
 }
 ```
