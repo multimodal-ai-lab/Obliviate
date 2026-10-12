@@ -216,4 +216,4 @@ ignores/
 outputs/
 checkpoints/
 wandb/
-data/
+/data/
